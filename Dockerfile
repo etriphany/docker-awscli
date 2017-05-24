@@ -2,7 +2,6 @@ FROM        alpine:latest
 
 LABEL       maintainer "etriphany.com"
 
-
 ENV         OS_PACKAGES "groff less python py-pip"
 
 # OS depencencies
