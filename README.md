@@ -8,3 +8,20 @@ This image is based on :whale: image [alpine](https://github.com/gliderlabs/dock
 
 * Python 2
 * AWS CLI
+
+
+## Usage Examples
+
+Building the image:
+
+```
+$ git clone https://github.com/etriphany/docker-awscli.git
+$ cd docker-awscli
+$ docker build . -t etriphany:awscli
+```
+
+Running a container:
+
+```
+$ docker run -ti etriphany:awscli
+```
