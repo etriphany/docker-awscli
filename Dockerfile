@@ -20,6 +20,7 @@ RUN         pip install awscli  && \
 # Configure
 WORKDIR     /home/user/
 
+# Run
 USER        user
 
 CMD         ["/bin/sh"]
