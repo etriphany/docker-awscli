@@ -17,7 +17,7 @@ Building the image:
 ```
 $ git clone https://github.com/etriphany/docker-awscli.git
 $ cd docker-awscli
-$ docker build . -t etriphany:awscli
+$ docker build . -t etriphany/awscli
 ```
 
 Running a container:
