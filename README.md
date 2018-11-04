@@ -23,5 +23,5 @@ $ docker build . -t etriphany/awscli
 Running a container:
 
 ```
-$ docker run -ti etriphany:awscli
+$ docker run -ti etriphany/awscli
 ```
